@@ -65,4 +65,4 @@ MIT License
 ## 💬 Questions or ideas?
 
 Open an issue or suggest a feature here:
-👉 [GitHub: Futuregus/Flogger](https://github.com/Futuregus/Flogger)
+👉 [GitHub: Futuregus/Flogger/issues](https://github.com/Futuregus/Flogger/issues)
