@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filelogr"
+version = "1.0.0"
+description = "A flexible logging utility for your Python projects"
+readme = "README.md"
+license = "MIT"
+authors = [
+  { name = "Futuregus" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Futuregus/filelogr"
+Bug_Tracker = "https://github.com/Futuregus/filelogr/issues"
+
+
+
