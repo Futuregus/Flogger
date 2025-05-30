@@ -1,47 +1,47 @@
-# floggerX
+# 📂filelogr
 
 **Simple, reliable logging for your Python projects.**
 
 ---
 
-## What’s floggerX?
+## 💡 What’s filelogr?
 
-floggerX is a lightweight Python logging module that writes actions to a file and can print logs to the console. It creates a logs directory if you need it and lets you customize where your logs live. Perfect for keeping track of what your app is up to, without the hassle.
+`filelogr` is a lightweight Python logging module that writes actions to a file and optionally prints them to the console. It auto-creates a logs folder if needed, and lets you customize where your logs are stored. 
 
----
-
-## Features
-
-- Logs actions with timestamps
-- Optional console printing for real-time updates
-- Easy configuration of log directory and filename
-- Auto-creates log folder and file if missing
-- Clean, minimal dependency (just Python standard libs)
+Perfect for tracking your app's activity without the hassle.
 
 ---
 
-## How to install
+## ✨ Features
+
+- 🕒 Logs actions with timestamps
+- 🖥️ Optional real-time console output
+- 📁 Customizable log folder and filename
+- 🛠️ Auto-creates log directory and file
+- ⚡ Built with Python’s standard libraries only (zero dependencies)
+
+---
+
+## 📦 Installation
 
 ```bash
-pip install floggerX==1.0.0
+pip install filelogr
 ````
-
-
 
 ---
 
-## Quickstart
+## 🚀 Quickstart
 
 ```python
-from floggerX import Logger
+from filelogr import Logger
 
-# Set where your logs go
+# Configure your log directory and filename
 Logger.configure(data_dir="my_logs", log_file="app.log")
 
 # Log without a tag
 Logger.log_action("Started the app")
 
-# Log with no tag and no timestamp (separator)
+# Log with no tag and no timestamp (just a separator)
 Logger.log_action("----- New Session -----", separator=True)
 
 # Log with a tag
@@ -50,18 +50,19 @@ Logger.log_action("An important event", tag="INFO")
 
 ---
 
-## Why use floggerX?
+## ❓ Why use filelogr?
 
-Because you deserve a logging tool that just works without drowning you in config headaches. It’s straightforward.
+Because logging shouldn't feel like setting up a rocket launch. `filelogr` gives you just what you need: a simple and readable way to track what’s going on in your app.
 
 ---
 
-## License
+## 📄 License
 
 MIT License
 
 ---
 
-## Questions or ideas?
+## 💬 Questions or ideas?
 
-just reach out with a issue.
+Open an issue or suggest a feature here:
+👉 [GitHub: Futuregus/Flogger](https://github.com/Futuregus/Flogger)
