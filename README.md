@@ -58,7 +58,7 @@ Because logging shouldn't feel like setting up a rocket launch. `filelogr` gives
 
 ## 📄 License
 
-MIT License
+[MIT License](https://github.com/Futuregus/filelogr/blob/main/LICENSE)
 
 ---
 
