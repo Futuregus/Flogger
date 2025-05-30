@@ -23,7 +23,7 @@ floggerX is a lightweight Python logging module that writes actions to a file an
 ## How to install
 
 ```bash
-pip install floggerX
+pip install floggerX==1.0.0
 ````
 
 
